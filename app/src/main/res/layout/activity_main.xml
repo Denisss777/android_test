@@ -1,11 +1,853 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
 
-    <!-- Место для верстки -->
+    <ScrollView android:id="@+id/detailed_game"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+            <RelativeLayout
+                android:id="@+id/page_detailed_game_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
+
+                <View
+                    android:id="@+id/_bg__detailed_game_ek2"
+                    android:layout_width="375dp"
+                    android:layout_height="996dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__detailed_game_ek2_shape" />
+
+                <ImageView
+                    android:id="@+id/mask_group"
+                    android:layout_width="375dp"
+                    android:layout_height="327dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="mask_group"
+                    android:src="@drawable/mask_group" />
+
+                <TextView
+                    android:id="@+id/dota_2_is_a_multiplayer_online_battle_arena__moba__game_which_has_two_teams_of_five_players_compete_to_collectively_destroy_a_large_structure_defended_by_the_opposing_team_known_as_the__ancient___whilst_defending_their_own_"
+                    android:layout_width="344dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="431dp"
+                    android:fontFamily="@font/sk_modernist"
+                    android:text="@string/dota_2_is_a_multiplayer_online_battle_arena__moba__game_which_has_two_teams_of_five_players_compete_to_collectively_destroy_a_large_structure_defended_by_the_opposing_team_known_as_the__ancient___whilst_defending_their_own__string"
+                    android:textColor="@color/dota_2_is_a_multiplayer_online_battle_arena__moba__game_which_has_two_teams_of_five_players_compete_to_collectively_destroy_a_large_structure_defended_by_the_opposing_team_known_as_the__ancient___whilst_defending_their_own__color"
+                    android:textSize="12sp" />
+
+
+                <RelativeLayout
+                    android:id="@+id/group_95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="274dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_83"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_82"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp">
+
+                                <View
+                                    android:id="@+id/rectangle_25"
+                                    android:layout_width="76dp"
+                                    android:layout_height="75dp"
+                                    android:layout_marginStart="6dp"
+                                    android:layout_marginTop="20dp"
+                                    android:background="@drawable/rectangle_25_shape" />
+
+                                <View
+                                    android:id="@+id/rectangle_27"
+                                    android:layout_width="88dp"
+                                    android:layout_height="88dp"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@drawable/rectangle_27_shape" />
+
+                                <View
+                                    android:id="@+id/rectangle_26"
+                                    android:layout_width="84.13dp"
+                                    android:layout_height="84.13dp"
+                                    android:layout_marginStart="2dp"
+                                    android:layout_marginTop="2dp"
+                                    android:background="@drawable/rectangle_26_shape" />
+
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/image_17"
+                                android:layout_width="54dp"
+                                android:layout_height="54dp"
+                                android:layout_marginStart="17dp"
+                                android:layout_marginTop="17dp"
+                                android:contentDescription="image_17"
+                                android:src="@drawable/image_17" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_86"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="100dp"
+                            android:layout_marginTop="34dp">
+
+                            <TextView
+                                android:id="@+id/dota_2"
+                                android:layout_width="95dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:fontFamily="@font/sk_modernist"
+                                android:text="@string/dota_2_string"
+                                android:textColor="@color/dota_2_color"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_85"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="32dp">
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_84"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="1dp">
+
+                                    <ImageView
+                                        android:id="@+id/star_1"
+                                        android:layout_width="12dp"
+                                        android:layout_height="12dp"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="star_1"
+                                        android:src="@drawable/star_1" />
+
+                                    <ImageView
+                                        android:id="@+id/star_2"
+                                        android:layout_width="12dp"
+                                        android:layout_height="12dp"
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="star_2"
+                                        android:src="@drawable/star_2" />
+
+                                    <ImageView
+                                        android:id="@+id/star_3"
+                                        android:layout_width="12dp"
+                                        android:layout_height="12dp"
+                                        android:layout_marginStart="32dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="star_3"
+                                        android:src="@drawable/star_3" />
+
+                                    <ImageView
+                                        android:id="@+id/star_4"
+                                        android:layout_width="12dp"
+                                        android:layout_height="12dp"
+                                        android:layout_marginStart="48dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="star_4"
+                                        android:src="@drawable/star_4" />
+
+                                    <ImageView
+                                        android:id="@+id/star_5"
+                                        android:layout_width="12dp"
+                                        android:layout_height="12dp"
+                                        android:layout_marginStart="64dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="star_5"
+                                        android:src="@drawable/star_5" />
+
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:id="@+id/_70m"
+                                    android:layout_width="43dp"
+                                    android:layout_height="22dp"
+                                    android:layout_marginLeft="86dp"
+                                    android:layout_marginTop="0dp"
+                                    android:fontFamily="@font/sk_modernist"
+                                    android:text="@string/_70m_string"
+                                    android:textColor="@color/_70m_color"
+                                    android:textSize="12sp" />
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/rectangle_31"
+                    android:layout_width="375dp"
+                    android:layout_height="126dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_31_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/group_42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="56dp">
+
+                    <View
+                        android:id="@+id/oval"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:alpha="0.28000000119209"
+                        android:background="@drawable/oval_shape" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/arrowleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="17dp"
+                        android:layout_marginTop="16dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/arrowleft_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp">
+
+                            <ImageView
+                                android:id="@+id/vector"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:contentDescription="vector"
+                                android:src="@drawable/vector" />
+
+                            <ImageView
+                                android:id="@+id/vector_ek1"
+                                android:layout_width="16.5dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="12dp"
+                                android:contentDescription="vector_ek1"
+                                android:src="@drawable/vector_ek1" />
+
+                            <ImageView
+                                android:id="@+id/vector_ek2"
+                                android:layout_width="6.75dp"
+                                android:layout_height="13.5dp"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="5dp"
+                                android:contentDescription="vector_ek2"
+                                android:src="@drawable/vector_ek2" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="295dp"
+                    android:layout_marginTop="56dp">
+
+                    <View
+                        android:id="@+id/oval_ek1"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:alpha="0.28000000119209"
+                        android:background="@drawable/oval_ek1_shape" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/iconly_light_outline_more_square"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp">
+
+
+                        <RelativeLayout
+                            android:id="@+id/more_square"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="10dp">
+
+                            <ImageView
+                                android:id="@+id/more_square_ek1"
+                                android:layout_width="18.96dp"
+                                android:layout_height="4dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:contentDescription="more_square_ek1"
+                                android:src="@drawable/more_square_ek1" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/system___light___status_bar___default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp">
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="67dp"
+                        android:layout_height="28.5dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/sf_pro"
+                        android:gravity="center"
+                        android:text="@string/time_string"
+                        android:textColor="@color/dota_2_color"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/battery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="336.33dp"
+                        android:layout_marginTop="13.33dp">
+
+                        <View
+                            android:id="@+id/border"
+                            android:layout_width="24dp"
+                            android:layout_height="13.33dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:alpha="0.35"
+                            android:background="@drawable/border_shape" />
+
+                        <ImageView
+                            android:id="@+id/cap"
+                            android:layout_width="1.33dp"
+                            android:layout_height="4dp"
+                            android:layout_marginStart="23dp"
+                            android:layout_marginTop="4dp"
+                            android:alpha="0.40000000596046"
+                            android:contentDescription="cap"
+                            android:src="@drawable/cap" />
+
+                        <View
+                            android:id="@+id/capacity"
+                            android:layout_width="18dp"
+                            android:layout_height="7.33dp"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="2dp"
+                            android:background="@drawable/capacity_shape" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/wifi"
+                        android:layout_width="15.33dp"
+                        android:layout_height="11dp"
+                        android:layout_marginStart="316dp"
+                        android:layout_marginTop="13.33dp"
+                        android:contentDescription="wifi"
+                        android:src="@drawable/wifi" />
+
+                    <ImageView
+                        android:id="@+id/cellular_connection"
+                        android:layout_width="17dp"
+                        android:layout_height="10.67dp"
+                        android:layout_marginStart="294dp"
+                        android:layout_marginTop="13.67dp"
+                        android:contentDescription="cellular_connection"
+                        android:src="@drawable/cellular_connection" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="523dp">
+
+                    <TextView
+                        android:id="@+id/review___ratings"
+                        android:layout_width="158dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/sk_modernist"
+                        android:text="@string/review___ratings_string"
+                        android:textColor="@color/dota_2_is_a_multiplayer_online_battle_arena__moba__game_which_has_two_teams_of_five_players_compete_to_collectively_destroy_a_large_structure_defended_by_the_opposing_team_known_as_the__ancient___whilst_defending_their_own__color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="31dp">
+
+                        <TextView
+                            android:id="@+id/_4_9"
+                            android:layout_width="122dp"
+                            android:layout_height="92dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:fontFamily="@font/sk_modernist"
+                            android:text="@string/_4_9_string"
+                            android:textColor="@color/dota_2_color"
+                            android:textSize="48sp"
+                            android:textStyle="bold" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_99"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="85dp"
+                            android:layout_marginTop="17dp">
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_98"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp">
+
+                                <ImageView
+                                    android:id="@+id/star_1_ek1"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:contentDescription="star_1_ek1"
+                                    android:src="@drawable/star_1_ek1" />
+
+                                <ImageView
+                                    android:id="@+id/star_2_ek1"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="0dp"
+                                    android:contentDescription="star_2_ek1"
+                                    android:src="@drawable/star_2_ek1" />
+
+                                <ImageView
+                                    android:id="@+id/star_3_ek1"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_marginStart="32dp"
+                                    android:layout_marginTop="0dp"
+                                    android:contentDescription="star_3_ek1"
+                                    android:src="@drawable/star_3_ek1" />
+
+                                <ImageView
+                                    android:id="@+id/star_4_ek1"
+                                    android:layout_width="12dp"
+                                    android:layout_height="12dp"
+                                    android:layout_marginStart="48dp"
+                                    android:layout_marginTop="0dp"
+                                    android:contentDescription="star_4_ek1"
+                                    android:src="@drawable/star_4_ek1" />
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_97"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="64dp"
+                                    android:layout_marginTop="0dp">
+
+                                    <ImageView
+                                        android:id="@+id/star_5_ek1"
+                                        android:layout_width="12dp"
+                                        android:layout_height="12dp"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="star_5_ek1"
+                                        android:src="@drawable/star_5_ek1" />
+
+                                </RelativeLayout>
+
+                            </RelativeLayout>
+
+                            <TextView
+                                android:id="@+id/_70m_reviews"
+                                android:layout_width="93dp"
+                                android:layout_height="22dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="@font/sk_modernist"
+                                android:text="@string/_70m_reviews_string"
+                                android:textColor="@color/_70m_reviews_color"
+                                android:textSize="12sp" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="628dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_103"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp">
+
+                        <ImageView
+                            android:id="@+id/ellipse_9"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="2dp"
+                            android:contentDescription="ellipse_9"
+                            android:src="@drawable/ellipse_9" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_102"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="52dp"
+                            android:layout_marginTop="0dp">
+
+                            <TextView
+                                android:id="@+id/auguste_conte"
+                                android:layout_width="135dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:fontFamily="@font/sk_modernist"
+                                android:text="@string/auguste_conte_string"
+                                android:textColor="@color/dota_2_color"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/february_14__2019"
+                                android:layout_width="119dp"
+                                android:layout_height="22dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="26dp"
+                                android:fontFamily="@font/sk_modernist"
+                                android:text="@string/february_14__2019_string"
+                                android:textColor="@color/dota_2_color"
+                                android:textSize="12sp" />
+
+                            <ImageView
+                                android:id="@+id/rectangle_22"
+                                android:layout_width="375dp"
+                                android:layout_height="700dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="296dp"
+                                android:contentDescription="rectangle_22"
+                                android:src="@drawable/rectangle_22" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/__once_you_start_to_learn_its_secrets__there_s_a_wild_and_exciting_variety_of_play_here_that_s_unmatched__even_by_its_peers__"
+                        android:layout_width="344dp"
+                        android:layout_height="68dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="56dp"
+                        android:fontFamily="@font/sk_modernist"
+                        android:text="@string/__once_you_start_to_learn_its_secrets__there_s_a_wild_and_exciting_variety_of_play_here_that_s_unmatched__even_by_its_peers___string"
+                        android:textColor="@color/_70m_reviews_color"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="756dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_103_ek1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp">
+
+                        <ImageView
+                            android:id="@+id/ellipse_9_ek1"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="2dp"
+                            android:contentDescription="ellipse_9_ek1"
+                            android:src="@drawable/ellipse_9_ek1" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_102_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="52dp"
+                            android:layout_marginTop="0dp">
+
+                            <TextView
+                                android:id="@+id/jang_marcelino"
+                                android:layout_width="140dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:fontFamily="@font/sk_modernist"
+                                android:text="@string/jang_marcelino_string"
+                                android:textColor="@color/dota_2_color"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/february_14__2019_ek1"
+                                android:layout_width="119dp"
+                                android:layout_height="22dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="26dp"
+                                android:fontFamily="@font/sk_modernist"
+                                android:text="@string/february_14__2019_ek1_string"
+                                android:textColor="@color/dota_2_color_trans"
+                                android:textSize="12sp" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/__once_you_start_to_learn_its_secrets__there_s_a_wild_and_exciting_variety_of_play_here_that_s_unmatched__even_by_its_peers___ek1"
+                        android:layout_width="344dp"
+                        android:layout_height="68dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="56dp"
+                        android:fontFamily="@font/sk_modernist"
+                        android:text="@string/__once_you_start_to_learn_its_secrets__there_s_a_wild_and_exciting_variety_of_play_here_that_s_unmatched__even_by_its_peers___ek1_string"
+                        android:textColor="@color/_70m_reviews_color"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/vector_3"
+                    android:layout_width="300dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="38dp"
+                    android:layout_marginTop="620dp"
+                    android:contentDescription="vector_3"
+                    android:src="@drawable/vector_3" />
+
+
+                <RelativeLayout
+                    android:id="@+id/group_96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="896dp">
+
+                    <View
+                        android:id="@+id/rectangle_32"
+                        android:layout_width="311dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="20dp"
+                        android:alpha="0.21999999880791"
+                        android:background="@drawable/rectangle_32_shape" />
+
+                    <View
+                        android:id="@+id/rectangle_33"
+                        android:layout_width="327dp"
+                        android:layout_height="64dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/rectangle_33_shape" />
+
+                    <TextView
+                        android:id="@+id/install"
+                        android:layout_width="84dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="134dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/sk_modernist"
+                        android:text="@string/install_string"
+                        android:textColor="@color/_bg__detailed_game_ek2_color"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/group_94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="385dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp">
+
+                        <View
+                            android:id="@+id/rectangle_28"
+                            android:layout_width="53dp"
+                            android:layout_height="22dp"
+                            android:layout_marginStart="6dp"
+                            android:layout_marginTop="3dp"
+                            android:alpha="0.23999999463558"
+                            android:background="@drawable/rectangle_28_shape" />
+
+                        <TextView
+                            android:id="@+id/moba"
+                            android:layout_width="48dp"
+                            android:layout_height="19dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="@string/moba_string"
+                            android:textColor="@color/rectangle_28_color" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="63dp"
+                        android:layout_marginTop="0dp">
+
+                        <View
+                            android:id="@+id/rectangle_28_ek1"
+                            android:layout_width="105dp"
+                            android:layout_height="22dp"
+                            android:layout_marginStart="6dp"
+                            android:layout_marginTop="3dp"
+                            android:alpha="0.23999999463558"
+                            android:background="@drawable/rectangle_28_ek1_shape" />
+
+                        <TextView
+                            android:id="@+id/multiplayer"
+                            android:layout_width="100dp"
+                            android:layout_height="19dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="@string/multiplayer_string"
+                            android:textColor="@color/multiplayer_color" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="166dp"
+                        android:layout_marginTop="0dp">
+
+                        <View
+                            android:id="@+id/rectangle_28_ek2"
+                            android:layout_width="80dp"
+                            android:layout_height="22dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="3dp"
+                            android:alpha="0.23999999463558"
+                            android:background="@drawable/rectangle_28_ek2_shape" />
+
+                        <TextView
+                            android:id="@+id/strategy"
+                            android:layout_width="75dp"
+                            android:layout_height="19dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserrat"
+                            android:text="@string/strategy_string"
+                            android:textColor="@color/multiplayer_color" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
+
